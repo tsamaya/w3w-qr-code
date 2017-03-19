@@ -1,0 +1,26 @@
+{
+  "name": "w3w-qr-code",
+  "description": "Generate QR-Code with what3words",
+  "main": "index.html",
+  "authors": [
+    "Arnaud Ferrand"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "what3words",
+    "qrcode"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leaflet-control-geocoder": "1.5.3",
+    "qrcodejs": "^0.1.0",
+    "html2canvas": "^0.4.1"
+  }
+}

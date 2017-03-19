@@ -1,0 +1,59 @@
+html, body, #map {
+  margin: 0;
+  height: 100%;
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.leaflet-marker-icon, .leaflet-marker-shadow {
+  -webkit-transition: margin 0.2s;
+  -moz-transition: margin 0.2s;
+  -o-transition: margin 0.2s;
+  transition: margin 0.2s;
+}
+
+#qr-wrapper {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  z-index: 999;
+  background: white;
+  padding: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+  border-radius: 4px;
+}
+
+#w3wLogo {
+  position: absolute;
+  /*top: 13px;
+  left: 13px;*/
+  top: 101px;
+  left: 101px;
+}
+
+#export-png {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.w3w-address {
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.img-valign {
+  vertical-align: middle;
+}
+
+.w3w-address a {
+  color: #000;
+  text-decoration: none;
+}
+
+#w3w {}

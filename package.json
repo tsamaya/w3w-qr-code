@@ -1,0 +1,31 @@
+{
+  "name": "w3w-qr-code",
+  "version": "0.0.1",
+  "description": "Generate QR-Code with what3words",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsamaya/w3w-qr-code.git"
+  },
+  "keywords": [
+    "what3words",
+    "qrcode"
+  ],
+  "author": "Arnaud Ferrand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsamaya/w3w-qr-code/issues"
+  },
+  "homepage": "https://github.com/tsamaya/w3w-qr-code#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-jshint": "^2.0.0",
+    "gulp-processhtml": "^1.1.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.1.0"
+  }
+}
